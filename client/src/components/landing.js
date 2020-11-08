@@ -12,7 +12,7 @@ function Landing() {
             className="avatar-img"
           />
           <div className="banner-text">
-            <h1>Full Stack Web Developer</h1>
+            <h1>Front-End Web Developer</h1>
             <hr />
             <p>React | Typescript | Bootstrap | Javascript | NodJS | Express</p>
             <div className="social-links">
