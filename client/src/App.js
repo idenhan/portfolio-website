@@ -11,7 +11,7 @@ function App() {
         <Header
           className="header-color"
           title={
-            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            <Link style={{ textDecoration: "none", color: "white" }} to="/portfolio-website">
               IdenHan
             </Link>
           }
