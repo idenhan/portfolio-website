@@ -14,7 +14,7 @@ function Landing() {
           <div className="banner-text">
             <h1>Full Stack Web Developer</h1>
             <hr />
-            <p>HTML/CSS | Bootstrap | Javascript | React | NodJS | Express</p>
+            <p>React | Typescript | Bootstrap | Javascript | NodJS | Express</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a
@@ -46,7 +46,7 @@ function Landing() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fa fa-youtube-square"></i>
+                <i className="fa fa-youtube-square"></i>
               </a>
             </div>
           </div>
