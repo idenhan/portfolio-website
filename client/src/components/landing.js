@@ -14,11 +14,11 @@ function Landing() {
           <div className="banner-text">
             <h1>Front-End Web Developer</h1>
             <hr />
-            <p>React | Typescript | Bootstrap | Javascript | NodJS | Express</p>
+            <p>React | Typescript | Bootstrap | Javascript | NodeJS | Express</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a
-                href="http://google.com"
+                href="http://linkedin.com/in/idenhan"
                 rel="noopener noreferrer"
                 target="_blank"
               >
