@@ -5,6 +5,7 @@ import Main from "./components/main";
 import { Link } from "react-router-dom";
 
 function App() {
+  // useTitle('I Love Galbi');
   return (
     <div className="demo-big-content">
       <Layout>

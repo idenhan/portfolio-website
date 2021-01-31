@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
+import profilePic from "../assets/linkedin_profile_rounded.png";
 
 function Landing() {
   return (
@@ -7,14 +8,14 @@ function Landing() {
       <Grid className="landing-grid">
         <Cell col={12}>
           <img
-            src="https://www.shareicon.net/data/512x512/2016/09/15/829466_man_512x512.png"
-            alt="avatar"
+            src={profilePic}
+            // alt="Avatar"
             className="avatar-img"
           />
           <div className="banner-text">
-            <h1>Front-End Web Developer</h1>
+            <h1>Front-End Developer</h1>
             <hr />
-            <p>React | Typescript | Bootstrap | Javascript | NodeJS | Express</p>
+            <p>React | Typescript | Bootstrap | Javascript | React-Native</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a

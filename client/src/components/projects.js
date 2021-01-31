@@ -97,7 +97,13 @@ function Projects() {
     } else if (form.id === 1) {
       return (
         <div>
-          <h1>This is NodeJS</h1>
+          <h1>This is Javascript</h1>
+        </div>
+      );
+    } else if (form.id === 2) {
+      return (
+        <div>
+          <h1>This is React-Native</h1>
         </div>
       );
     }
@@ -105,9 +111,10 @@ function Projects() {
 
   return (
     <div className="category-tabs">
-      <Tabs onChange={(tabId) => setValues({ ...form, id: tabId })} ripple>
+      <Tabs onChange={tabId => setValues({ ...form, id: tabId })} ripple>
         <Tab>React</Tab>
-        <Tab>NodeJS</Tab>
+        <Tab>Javascript</Tab>
+        <Tab>React-Native</Tab>
       </Tabs>
 
       <Grid>
